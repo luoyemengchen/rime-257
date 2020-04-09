@@ -38,22 +38,25 @@ patch:
     # 成对标点: 双引号 单引号 书名号 括号
 
       # 常用标点
+      '~' : '~'
+      '!' : '！'
+      '$' : '$'
+      '^' : '^'
+      '_' : '_'
+      '\' : '、'
+      '|' : '|'
       ':' : '：'
       ';' : '；'
-      '\' : '、'
-      '/' : '/' #待更改
-      '|' : '·' #待更改
+      '/' : '/'
       ',' : '，'
       '.' : '。'
       '?' : '？'
-      '!' : '！'
-      '$' : '￥' #待更改
-      '_' : '——' #待更改
-      '^' : '……' #待更改
+      # '_' : '——'
+      # '^' : '……'
 
       # 成对标点
-      '''' : { pair: [ '‘', '’' ] } #待更改
-      '"' : { pair: [ '“', '”' ] } #待更改
+      '''' : { pair: [ '「', '」' ] }
+      '"' : { pair: [ '『', '』' ] }
       '<' : '《'
       '>' : '》'
       '[' : '【'
@@ -87,11 +90,13 @@ patch:
       - { when: always, accept: Shift+space, toggle: full_shape } # Shift+space 切换全角/半角
       - { when: has_menu, accept: minus, send: Page_Up }
       - { when: has_menu, accept: equal, send: Page_Down }
+      - { when: has_menu, accept: Control+bracketleft, send: Page_Up }
+      - { when: has_menu, accept: Control+bracketright, send: Page_Down }
       #
       # paging
       #
-      # - { when: has_menu, accept: comma, send: Page_Up }
-      # - { when: has_menu, accept: period, send: Page_Down }
+       - { when: has_menu, accept: comma, send: Page_Up }
+       - { when: has_menu, accept: period, send: Page_Down }
       #
       # more technical binding
       #
