@@ -5,19 +5,19 @@ patch:
   switcher:
     caption: 〔方案选单〕
     hotkeys:
-    - Control+grave
+    - Control+grave #待更改
 
   # 候选词 5 个
   menu:
-    page_size: 5
+    page_size: 5 #待测试
 
   schema_list:
   - schema: luna_pinyin_simp     # 朙月拼音·简化字，可以按 ctrl+` 选择临时启用正體中文
   - schema: luna_pinyin_fluency  # 语句流
   - schema: double_pinyin_flypy  # 小鶴雙拼
   #- schema: wubi_pinyin          # 五笔拼音混合輸入
-  - schema: wubi86               # 五笔86
-  - schema: luna_pinyin_tw       # 朙月拼音·臺灣正體，可以按 ctrl+` 選擇臨時啓用简体中文
+  #- schema: wubi86               # 五笔86
+  #- schema: luna_pinyin_tw       # 朙月拼音·臺灣正體，可以按 ctrl+` 選擇臨時啓用简体中文
 
   ascii_composer:
     good_old_caps_lock: true
@@ -41,25 +41,25 @@ patch:
       ':' : '：'
       ';' : '；'
       '\' : '、'
-      '/' : '/'
-      '|' : '·'
+      '/' : '/' #待更改
+      '|' : '·' #待更改
       ',' : '，'
       '.' : '。'
       '?' : '？'
       '!' : '！'
-      '$' : '￥'
-      '_' : '——'
-      '^' : '……'
+      '$' : '￥' #待更改
+      '_' : '——' #待更改
+      '^' : '……' #待更改
 
       # 成对标点
-      '''' : { pair: [ '‘', '’' ] }
-      '"' : { pair: [ '“', '”' ] }
+      '''' : { pair: [ '‘', '’' ] } #待更改
+      '"' : { pair: [ '“', '”' ] } #待更改
       '<' : '《'
       '>' : '》'
       '[' : '【'
       ']' : '】'
-      #'(' : '（'
-      #')' : '）'
+      '(' : '（'
+      ')' : '）'
 
 #     其他标点样式参考。用它们替换上面的配置即可
 #     更多参见 ori_default.yaml
