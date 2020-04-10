@@ -36,3 +36,5 @@ patch:
       "<": "《"
       ">": "》"
       "'": {pair: ["「", "」"]}
+
+  "translator/dictionary": luna_pinyin.extended
