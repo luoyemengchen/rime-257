@@ -13,7 +13,7 @@ patch:
   us_keyboard_layout: true
   style/display_tray_icon: true
   style/font_face: "Microsoft YaHei"
-  style/font_point: 20
+  style/font_point: 22
   style/spacing: 5
   style/horizontal: true
   style/inline_preedit: false # 内嵌编码
