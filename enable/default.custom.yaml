@@ -20,10 +20,10 @@ patch:
   switcher:
     caption: 〔方案选单〕
     hotkeys:
-      - Control+q
-      - Control+Shift+f
-      - Control+Shift+grave
-      - Control+Shift+asciitilde
+      - "Control+q"
+      - "Control+Shift+f"
+      - "Control+Shift+grave"
+      - "Control+Shift+asciitilde"
 
   schema_list:
     - {schema: luna_pinyin_simp}     # 朙月拼音·简化字，可以按 ctrl+` 选择临时启用正體中文
