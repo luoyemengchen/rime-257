@@ -20,6 +20,8 @@ patch:
   switcher:
     caption: 〔方案选单〕
     hotkeys:
+      - Control+q
+      - Control+Shift+f
       - Control+Shift+grave
 
   schema_list:
