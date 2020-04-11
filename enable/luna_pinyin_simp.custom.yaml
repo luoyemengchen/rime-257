@@ -1,11 +1,12 @@
 # luna_pinyin.custom.yaml
 # luna_pinyin_simp.custom.yaml
 # to do list:
-# 標點符號（已完成）
+# 標點符號（已完成，但弃用，请使用 default 的标点）
 # 快捷鍵
-# 已知 bug：標點符號的「`」無效
 
 patch:
+  "translator/dictionary": luna_pinyin.extended
+
   # punctuator:
     # half_shape:
       # "~": "~"
@@ -36,5 +37,3 @@ patch:
       # "<": "《"
       # ">": "》"
       # "'": {pair: ["「", "」"]}
-
-  "translator/dictionary": luna_pinyin.extended
