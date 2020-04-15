@@ -83,4 +83,12 @@ patch:
       ascii_mode: true
     powershell.exe:
       ascii_mode: true
+    th06.exe:
+      ascii_mode: true
+    startgame.exe:
+      ascii_mode: true
+    game.exe:
+      ascii_mode: true
+    griefsyndrome.exe:
+      ascii_mode: true
     #程序名一律小写
