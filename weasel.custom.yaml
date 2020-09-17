@@ -59,30 +59,45 @@ patch:
   
   # 自动切换为英文
   app_options:
-    cmd.exe:
-      ascii_mode: true
+    #程序名一律小写
+    #文本
     notepad2.exe:
       ascii_mode: true
-    xshell.exe:
-      ascii_mode: true
-    winscp.exe:
-      ascii_mode: true
-    xdown.exe:
-      ascii_mode: true
-    idman.exe:
-      ascii_mode: true
-    xftp.exe:
-      ascii_mode: true
-    tableplus.exe:
-      ascii_mode: true
     sourcetree.exe:
+      ascii_mode: true
+    cmd.exe:
+      ascii_mode: true
+    cmder.exe:
+      ascii_mode: true
+    bash.exe:
+      ascii_mode: true
+    sh.exe:
       ascii_mode: true
     git-bash.exe:
       ascii_mode: true
     git-cmd.exe:
       ascii_mode: true
+    conemu64.exe:
+      ascii_mode: true
+    conemu.exe:
+      ascii_mode: true
     powershell.exe:
       ascii_mode: true
+    #网络
+    winscp.exe:
+      ascii_mode: true
+    xshell.exe:
+      ascii_mode: true
+    xftp.exe:
+      ascii_mode: true
+    tableplus.exe:
+      ascii_mode: true
+    #下载
+    xdown.exe:
+      ascii_mode: true
+    idman.exe:
+      ascii_mode: true
+    #Game 
     th06.exe:
       ascii_mode: true
     startgame.exe:
@@ -91,4 +106,3 @@ patch:
       ascii_mode: true
     griefsyndrome.exe:
       ascii_mode: true
-    #程序名一律小写
