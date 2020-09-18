@@ -96,6 +96,7 @@ patch:
       - punct_translator
       - table_translator@custom_phrase
       - reverse_lookup_translator
+      - "table_translator@nihongo-r"
       - script_translator
     filters:
       - simplifier
@@ -104,6 +105,11 @@ patch:
 #     #这个会与模糊音的开启发生冲突
 #     translator:
 #       enable_charset_filter: true #启用罕见字過濾，要同時加載 cjk_minifier
+
+  nihongo-r:
+    dictionary: nihongo-r
+    enable_completion: true
+    enable_sentence: false
 
 
   # # 符号快速输入和部分符号的快速上屏
@@ -161,7 +167,7 @@ patch:
       url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
       punct: "^/([a-z]+|[0-9]0?)$"
       
-     
+
  # 模糊拼音
   'speller/algebra':
     - erase/^xx$/                      # 第一行保留
@@ -213,8 +219,8 @@ patch:
     - derive/([aeiou])ng$/$1gn/        # dagn => dang 
     - derive/([dtngkhrzcs])o(u|ng)$/$1o/  # zho => zhong|zhou
     - derive/ong$/on/                  # zhonguo => zhong guo
-    - derive/ao$/oa/                   # hoa => hao
-    - derive/([iu])a(o|ng?)$/a$1$2/    # tain => tian
+    # - derive/ao$/oa/                   # hoa => hao
+    # - derive/([iu])a(o|ng?)$/a$1$2/    # tain => tian
 
   # 分尖團後 v => ü 的改寫條件也要相應地擴充：
   #'translator/preedit_format':
