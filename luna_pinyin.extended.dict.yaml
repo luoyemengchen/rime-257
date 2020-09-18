@@ -67,13 +67,20 @@ import_tables:
   - luna_pinyin.extra_hanzi
   - luna_pinyin.game
   - luna_pinyin.hanyu
+  - luna_pinyin.history
   - luna_pinyin.kaomoji
   - luna_pinyin.movie
   - luna_pinyin.music
   - luna_pinyin.name
+  - luna_pinyin.place
   - luna_pinyin.poetry
   - luna_pinyin.sgmain
   - luna_pinyin.i
+  #搜狗细胞词库
+  - c_computer
+  - c_finance
+  - c_shijing_all
+  - c_place
   #用户自定义
   - f_myphrases
   - f_mysecretphrases
