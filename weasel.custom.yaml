@@ -58,9 +58,9 @@ patch:
   
   
   # 自动切换为英文
+  #
   app_options:
-    #程序名一律小写
-    #文本
+    #文本（程序名一律小写）
     notepad2.exe:
       ascii_mode: true
     sourcetree.exe:
@@ -97,7 +97,7 @@ patch:
       ascii_mode: true
     idman.exe:
       ascii_mode: true
-    #Game 
+    #Game
     th06.exe:
       ascii_mode: true
     startgame.exe:

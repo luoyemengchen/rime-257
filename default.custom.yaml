@@ -35,6 +35,12 @@ patch:
 
 
   # 上屏
+  # clear: 取消输入
+  # commit_text：已输入的候选文字上屏并切换至西文输入模式
+  # commit_code：已输入的编码字符上屏并切换至西文输入模式
+  # noop：屏蔽该切换键
+  # inline_ascii：在输入法的临时西文编辑区内输入字母、数字、符号、空格等，回车上屏后自动复位到中文
+  #
   ascii_composer:
     good_old_caps_lock: true
     switch_key:
