@@ -58,9 +58,14 @@ use_preset_vocabulary: true
 
 import_tables:
   - luna_pinyin
+  - luna_pinyin.anime
+  - luna_pinyin.biaoqing
+  - luna_pinyin.chat
   - luna_pinyin.cn_en
   - luna_pinyin.computer
   - luna_pinyin.emoji
+  - luna_pinyin.extra_hanzi
+  - luna_pinyin.game
   - luna_pinyin.hanyu
   - luna_pinyin.kaomoji
   - luna_pinyin.movie
@@ -69,7 +74,7 @@ import_tables:
   - luna_pinyin.poetry
   - luna_pinyin.sgmain
   - luna_pinyin.i
-  #
+  #用户自定义
   - f_myphrases
   - f_mysecretphrases
 ...
