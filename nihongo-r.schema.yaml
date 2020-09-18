@@ -64,7 +64,7 @@ punctuator:
   import_preset: default
 
 menu:
-  page_size: 6
+  page_size: 5
 
 key_binder:
   import_preset: default
