@@ -63,7 +63,7 @@ patch:
       '!': {commit: '！'}
       '@': '@'
       '#': '#'
-      '$': '$'
+      '$': '–' # U+2013 En Dash
       '%': '%'
       '^': '…' # U+2026 Horizontal Ellipsis 中文省略号
       '*': '*'
@@ -116,6 +116,7 @@ patch:
       '/dot' : '·' # U+00B7 Middle Dot（间隔号）
       '/dot' : '・' # U+30FB Katakana Middle Dot (片假名中点)
       '/en' : '–' # U+2013 EN DASH
+      '/dao' : '–' # EN DASH 用来表示范围，比如 Age 12–17
       #数字
       '/0' : '〇' # U+3007 日文数字零、中文小写数字零
       '/1': [ ①, Ⅰ, 壹, 壱 ]
